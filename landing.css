@@ -1,0 +1,33 @@
+body,h1 {
+	background: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80") no-repeat center center fixed;
+	 -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	color: white;
+  	display: flex;
+  	justify-content: center;
+  	margin-top: 74px;
+  	font-family: 'Lato', sans-serif;	
+}
+
+.fixed-bottom {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 120px;
+}
+
+.btn-primary {
+	background-color: #ff6b68;
+	border: 2px solid #ff6b68;
+	transition: all 0.3s;
+}
+
+.btn-primary:hover {
+	background-color: #e66352;
+	border: 2px solid #e66352;
+	transform: scale(1.1);
+}
+
+
+
